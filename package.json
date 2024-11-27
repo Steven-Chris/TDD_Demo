@@ -1,0 +1,19 @@
+{
+  "name": "tdd_exercise",
+  "version": "1.0.0",
+  "description": "A simple express application demonstrating TDD",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npx jest"
+  },
+  "author": "Steven Chris",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
